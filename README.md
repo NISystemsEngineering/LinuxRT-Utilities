@@ -1,0 +1,2 @@
+# LinuxRTUtilities
+This library and acts as a base library for maintaining common type definitions for use with other Linux-based LabVIEW libraries, and provides a set of common utilities that are useful on a Linux RT system. Examples are definitions of common C enums and structs (timespec, clockid_t, etc.), ability to query specific system clocks (Realtime, Monotonic, etc.), as well as other general functionality that will be added over time.
