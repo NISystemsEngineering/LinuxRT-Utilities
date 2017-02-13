@@ -16,10 +16,6 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="C Enums" Type="Folder">
 				<Item Name="clockid_t.ctl" Type="VI" URL="../Controls/Public/C Enums/clockid_t.ctl"/>
-				<Item Name="mutex_type_t.ctl" Type="VI" URL="../Controls/Public/C Enums/mutex_type_t.ctl"/>
-				<Item Name="priority_t.ctl" Type="VI" URL="../Controls/Public/C Enums/priority_t.ctl"/>
-				<Item Name="process_t.ctl" Type="VI" URL="../Controls/Public/C Enums/process_t.ctl"/>
-				<Item Name="schedule_t.ctl" Type="VI" URL="../Controls/Public/C Enums/schedule_t.ctl"/>
 			</Item>
 			<Item Name="C Structs" Type="Folder">
 				<Item Name="timespec_32.ctl" Type="VI" URL="../Controls/Public/C Structs/timespec_32.ctl"/>
