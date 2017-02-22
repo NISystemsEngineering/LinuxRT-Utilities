@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-13 14:43:24" Modified_Date="2017-02-16 15:51:07" Creator="Ryan Poulos" Comments="" ID="e37c588da05c3e1c1f070616f64a7d00">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-13 14:43:24" Modified_Date="2017-02-22 15:15:31" Creator="Ryan Poulos" Comments="" ID="cdb9c3298011d490ebd408e6e850948f">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NI_Linux_RT_Utilities</Package_File_Name>
-    <Library_Version>0.1.2.4</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -38,7 +38,10 @@ This library and acts as a base library for maintaining common type definitions 
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>0.1.2.3:
+      <Release_Notes>1.0.0.4:
+Updating version to 1.0.0 for build server.
+
+0.1.2.3:
 Updated Linux RT Errno dependency to reflect file change.
 
 0.1.1.2:
@@ -152,6 +155,9 @@ Initial build.</Release_Notes>
       <Exclusions>
         <Path>README.md</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>Autobuild.csv</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -251,7 +257,7 @@ Initial build.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>52EFABA03A6450FDFE38C9829181A3B7</GUID>
+      <GUID>34D27BF39F338A5703A799315C4BF231</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -342,7 +348,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\Time\Sleep Until.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FEE95C69F1C98A3FDA53DC6A7EEDF66</GUID>
+      <GUID>0DA6B8693ED49840F4DD6243D0C23A42</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -475,7 +481,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\Convert Types\convert timespec 64 to timespec 32.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A4927894723B02925F0C1619B74FA4C</GUID>
+      <GUID>B977E8AB6CFAA678D70169866FA927DC</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -524,7 +530,7 @@ Initial build.</Release_Notes>
         <Path>..\Structs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B65FE4FAC958A9BE7A84C6816C47E59</GUID>
+      <GUID>AB84643B548E0ABE5C5280682CF3AB55</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -559,7 +565,7 @@ Initial build.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6C7192E8C975DEBB78ADAF096E2C0AFE</GUID>
+      <GUID>4D34644A42F553F90C4EFCAE023288D5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -594,7 +600,7 @@ Initial build.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEB9CA94C9A22BAF9F7A5B927F36C898</GUID>
+      <GUID>D8E942B8F2C1AB27CD1B2D9CB8567F22</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -629,7 +635,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\Controls\Public\C Enums\clockid_t.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2626A6A87F6732F718C9716B4D9F63D3</GUID>
+      <GUID>EC1E88C4B43C030579053CE5D0DCB7FC</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -678,7 +684,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\Controls\Public\C Structs\timespec_64.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>835A8E87B8BA6CE15A2BCC23F309F830</GUID>
+      <GUID>13E05D2EFD2717049E115EA91C19BFA6</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
