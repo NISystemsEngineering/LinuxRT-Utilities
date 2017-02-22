@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-13 14:43:24" Modified_Date="2017-02-22 15:15:31" Creator="Ryan Poulos" Comments="" ID="cdb9c3298011d490ebd408e6e850948f">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-13 14:43:24" Modified_Date="2017-02-22 15:54:20" Creator="Ryan Poulos" Comments="" ID="b6676eb86eaebe5e9fcfc6dc631ccb79">
   <Library_General_Settings>
     <Package_File_Name>National_Instruments_lib_NI_Linux_RT_Utilities</Package_File_Name>
     <Library_Version>1.0.0.4</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>national_instruments_lib_ni_linux_rt_errno &gt;=0.3.0.6</Additional_External_Dependencies>
+      <Additional_External_Dependencies>national_instruments_lib_ni_linux_rt_errno &gt;=1.0.0.3</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -38,17 +38,7 @@ This library and acts as a base library for maintaining common type definitions 
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>1.0.0.4:
-Updating version to 1.0.0 for build server.
-
-0.1.2.3:
-Updated Linux RT Errno dependency to reflect file change.
-
-0.1.1.2:
-Changed palette name from "Time" to "Timing".
-
-0.1.0.1:
-Initial build.</Release_Notes>
+      <Release_Notes/>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -257,7 +247,7 @@ Initial build.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>34D27BF39F338A5703A799315C4BF231</GUID>
+      <GUID>5BA30618ECE9882AF7B3994F6CAE8817</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -348,7 +338,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\Time\Sleep Until.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DA6B8693ED49840F4DD6243D0C23A42</GUID>
+      <GUID>C3D7EF54B4917EEAEA4A69B420A9A00B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -481,7 +471,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\VIs\Public\Convert Types\convert timespec 64 to timespec 32.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B977E8AB6CFAA678D70169866FA927DC</GUID>
+      <GUID>470B87E8AE997E611F1B82FD62092E70</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -530,7 +520,7 @@ Initial build.</Release_Notes>
         <Path>..\Structs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB84643B548E0ABE5C5280682CF3AB55</GUID>
+      <GUID>6A4C57C2991B3B8B13A05847FBAD9EE0</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -565,7 +555,7 @@ Initial build.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4D34644A42F553F90C4EFCAE023288D5</GUID>
+      <GUID>E6D81FBB38864DE1961EE9E63906A7D8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -600,7 +590,7 @@ Initial build.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8E942B8F2C1AB27CD1B2D9CB8567F22</GUID>
+      <GUID>17DF40B892DFC57CD5A41BDA6C1BC0A5</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -635,7 +625,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\Controls\Public\C Enums\clockid_t.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EC1E88C4B43C030579053CE5D0DCB7FC</GUID>
+      <GUID>6A62407CEDF31A10302B94EC4653DD4E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -684,7 +674,7 @@ Initial build.</Release_Notes>
         <Path>..\Source\Controls\Public\C Structs\timespec_64.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13E05D2EFD2717049E115EA91C19BFA6</GUID>
+      <GUID>598E38130AAFC7298FB23E327CDFEB57</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
