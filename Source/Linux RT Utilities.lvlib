@@ -39,7 +39,7 @@
 		</Item>
 		<Item Name="Public" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-			<Item Name="Time" Type="Folder">
+			<Item Name="Timing" Type="Folder">
 				<Item Name="Convert Types" Type="Folder">
 					<Item Name="convert lv timestamp to unix time.vi" Type="VI" URL="../VIs/Public/Convert Types/convert lv timestamp to unix time.vi"/>
 					<Item Name="convert nanoseconds to timespec.vi" Type="VI" URL="../VIs/Public/Convert Types/convert nanoseconds to timespec.vi"/>
