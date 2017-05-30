@@ -32,9 +32,6 @@
 				<Item Name="clock_gettime.vi" Type="VI" URL="../VIs/Private/C Functions/clock_gettime.vi"/>
 				<Item Name="clock_nanosleep.vi" Type="VI" URL="../VIs/Private/C Functions/clock_nanosleep.vi"/>
 			</Item>
-			<Item Name="Paths" Type="Folder">
-				<Item Name="libc path.vi" Type="VI" URL="../VIs/Private/Paths/libc path.vi"/>
-			</Item>
 			<Item Name="Error Handler.vi" Type="VI" URL="../VIs/Private/Error Handler.vi"/>
 		</Item>
 		<Item Name="Public" Type="Folder">
