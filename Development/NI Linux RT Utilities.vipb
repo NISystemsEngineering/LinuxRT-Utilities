@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-13 14:43:24" Modified_Date="2017-05-30 16:00:09" Creator="Ryan Poulos" Comments="" ID="aca2e94249cf2459f7909112d0eae058">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-02-13 14:43:24" Modified_Date="2017-06-02 14:08:43" Creator="Ryan Poulos" Comments="" ID="998c0fffd5688e4ea0fa3b0a16d91834">
   <Library_General_Settings>
     <Package_File_Name>NI_lib_NI_Linux_RT_Utilities</Package_File_Name>
-    <Library_Version>1.1.0.9</Library_Version>
+    <Library_Version>1.1.1.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..</Library_Source_Folder>
     <Library_Output_Folder>..\Builds</Library_Output_Folder>
@@ -34,7 +34,11 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL>https://forums.ni.com/t5/Reference-Design-Content/NI-Linux-RT-Libraries/ta-p/3622838</URL>
-      <Release_Notes>1.1.0:
+      <Release_Notes>1.1.1:
+Small code cleanup.
+Updated VI icons.
+
+1.1.0:
 Updated VIs to support updated Errno library.
 Added license agreement.</Release_Notes>
     </Description>
@@ -143,6 +147,9 @@ Added license agreement.</Release_Notes>
       <Exclusions>
         <Path>Autobuild.csv</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>LICENSE</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -242,7 +249,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D7364F46A821457AB21F1242132A3AD</GUID>
+      <GUID>B87B6BEB26020C282759320A1C3B1B38</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -333,7 +340,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Source\VIs\Public\Time\Sleep Until.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6294A43DFA4181283E3D4C3E0533A3B8</GUID>
+      <GUID>0FE0E6389E427C4922546DBF1113F370</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -466,7 +473,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Source\VIs\Public\Convert Types\convert timespec 64 to timespec 32.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60F448B261C70E9DC16F93EC0AC4DCC5</GUID>
+      <GUID>0CB46F6CC971CCCFAB44290FD0325338</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -515,7 +522,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Structs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5E19D6193EC3564C9CF4F3303E01203</GUID>
+      <GUID>52187CB8D5245DDFA244762A0E74477E</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -550,7 +557,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3F2B5F556846F49DDC9F73E7C9E314B</GUID>
+      <GUID>2650F154E18FF935CBE6FF5535E155B8</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -585,7 +592,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Time</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57B125E7090E320BE5D6D07A967C6BE9</GUID>
+      <GUID>61ECC863EEA7236D66D62C4902A8346F</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -620,7 +627,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Source\Controls\Public\C Enums\clockid_t.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBBFB67586CDC6A483AED5AB99F3C299</GUID>
+      <GUID>A8723AE98E9F2587E05730B5BE325333</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -669,7 +676,7 @@ Added license agreement.</Release_Notes>
         <Path>..\Source\Controls\Public\C Structs\timespec_64.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BC4EDA0100DABE2F51E3348289CD01F0</GUID>
+      <GUID>989F1E54BB8A8BF28F044D1B4141BC3F</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
